@@ -7,16 +7,16 @@ Luego en la ultima pagina se encuentra un Contact Us o formulario para que los p
 # Imagenes Demostración
 
 ***Index***
-![Screenshot] (img-demo/index.png)
+![Screenshot](img-demo/index.png)
 
 ***Servicios***
-![Screenshot] (img-demo/servicios.png)
+![Screenshot](img-demo/servicios.png)
 
 ***Formulario***
-![Screenshot] (img-demo/formulario.png)
+![Screenshot](img-demo/formulario.png)
 
 ***Footer***
-![Screenshot] (img-demo/footer.png)
+![Screenshot](img-demo/footer.png)
 
 # Visitar Sitio
 
