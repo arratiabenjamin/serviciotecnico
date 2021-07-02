@@ -5,7 +5,7 @@ Pagina web compuesta por html y css, en la cual al inicio se encuantra una barra
 En la siguiente pagina se encuentran los productos a los cuales la empresa ofrece servicio, cada producto lleva a su respectiva pagina donde se encuentran los servicios existentes en la empresa para el producto.
 </br>
 </br>
-Luego en la ultima pagina se encuentra un Contact Us o formulario para que los puedan contactar
+Luego en la ultima pagina se encuentra un Contact Us o formulario para que los puedan contactar.
 
 # Imagenes Demostración
 ***Index***
