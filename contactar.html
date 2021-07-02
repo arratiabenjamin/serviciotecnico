@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServicioTecnico</title>
+    <link rel="preload" href="css/style.css">
+    <link rel="preload" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+
+        <nav class="navegacion">
+            <a href="index.html" class="navegacion__enlace">Inicio</a>
+            <a href="servicios.html" class="navegacion__enlace">Servicios</a>
+            <a href="contactar.html" class="navegacion__enlace">Contactanos</a>
+        </nav>
+
+        <div class="fondo">
+            <div class="fondo__contenido">
+                <h2>Servicio Tecnico BYE</h2>
+
+                <div class="iconos">
+                    <!-- NoteBookIcon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-laptop" width="68" height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <line x1="3" y1="19" x2="21" y2="19" />
+                        <rect x="5" y="6" width="14" height="10" rx="1" />
+                    </svg>
+                    <!-- PhoneIcon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="70" height="70" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="7" y="4" width="10" height="16" rx="1" />
+                        <line x1="11" y1="5" x2="13" y2="5" />
+                        <line x1="12" y1="17" x2="12" y2="17.01" />
+                    </svg>
+                    <!-- PCIcon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fondo__icono icon icon-tabler icon-tabler-devices-pc" width="70" height="70" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 5h6v14h-6z" />
+                        <path d="M12 9h10v7h-10z" />
+                        <path d="M14 19h6" />
+                        <path d="M17 16v3" />
+                        <path d="M6 13v.01" />
+                        <path d="M6 16v.01" />
+                    </svg>
+                </div>
+                <!-- HomeIcon -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="68" height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <polyline points="5 12 3 12 12 3 21 12 19 12" />
+                    <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                    <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+                </svg>
+
+                <p>Región Metropolitana, Santiago</p>
+                <a class="boton" href="contactar.html">Cotizar</a>
+            </div>
+        </div>
+
+    </header>
+
+    <section>
+        <h2 class="negro">Contactenos</h2>
+        <p class="negro">Apenas uno de nuestros trabajadores se encuentre disponible será atendido/a</p>
+        <form class="contactar">
+            <fieldset>
+                <div class="contactar--campos">
+                    <div class="contactar__campo">
+                        <label class="contactar__campo--label" for="nombre">Nombre</label>
+                        <input type="text" class="contactar__campo--field" id="nombre" placeholder="Tu Nombre">
+                    </div>
+                    <div class="contactar__campo">
+                        <label class="contactar__campo--label" for="telefono">Telefono</label>
+                        <input type="tel" class="contactar__campo--field" id="telefono" placeholder="Tu Telefono">
+                    </div>
+                    <div class="contactar__campo">
+                        <label class="contactar__campo--label" for="email">E-Mail</label>
+                        <input type="email" class="contactar__campo--field" id="email" placeholder="Tu E-Mail">
+                    </div>
+                    <div class="contactar__campo">
+                        <label class="contactar__campo--label" for="mensaje">Mensaje y Servicio</label>
+                        <textarea class="contactar__campo--field" id="mensaje"></textarea>
+                    </div>
+                </div> <!-- .contenedor-campos -->
+                <div class="contactar__boton">
+                    <input type="submit" value="Enviar" class="contactar__boton--boton">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__contenido">
+            <div class="footer__redes">
+                <h3>Redes Sociales:</h3>
+                <!-- Whatsapp -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                    <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+                </svg>
+                <p>+56 9 7631 2496</p>
+
+                <!-- Instagram -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="4" y="4" width="16" height="16" rx="4" />
+                    <circle cx="12" cy="12" r="3" />
+                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                </svg>
+                <p>ST_BYE</p>
+                <!-- Facebook -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009988" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                </svg>
+                <p>ST_BYE</p>
+            </div>
+            <h3>Atencion:</h3>
+            <p>Region Metropolitana, Santiago</p>
+            <p>Lunes a Domingos</p>
+            <p>9:00 a 22:00</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
